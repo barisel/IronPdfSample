@@ -1,0 +1,1456 @@
+<?xml version="1.0" standalone="yes"?>
+<StatementDataSet>
+  <xs:schema id="GcNWindDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="GcNWindDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Statement">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TranDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AccountNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="AccountSuffix" type="xs:int" minOccurs="0" />
+                <xs:element name="CurrencyCode" type="xs:string" minOccurs="0" />
+                <xs:element name="Explanation" type="xs:string" minOccurs="0" />
+                <xs:element name="DebitAmount" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CreditAmount" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Balance" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CustomerName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>352</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>20.00</DebitAmount>
+    <CreditAmount>30.00</CreditAmount>
+    <Balance>900.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>351</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>87.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>600.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>355</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>87.00</DebitAmount>
+    <CreditAmount>253.00</CreditAmount>
+    <Balance>58964.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>355</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>500.00</DebitAmount>
+    <CreditAmount>100.00</CreditAmount>
+    <Balance>9000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>355</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>500.00</DebitAmount>
+    <CreditAmount>300.00</CreditAmount>
+    <Balance>10000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>351</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>300.00</CreditAmount>
+    <Balance>10.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+  <Statement>
+    <TranDate>2020-02-02T00:00:00</TranDate>
+    <AccountNumber>3256</AccountNumber>
+    <AccountSuffix>356</AccountSuffix>
+    <CurrencyCode>TRY       </CurrencyCode>
+    <Explanation>Faiz ödemesi                                      </Explanation>
+    <DebitAmount>50.00</DebitAmount>
+    <CreditAmount>900.00</CreditAmount>
+    <Balance>8000.00</Balance>
+    <CustomerName>Baris Elvanoglu               </CustomerName>
+  </Statement>
+</StatementDataSet>

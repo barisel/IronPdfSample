@@ -42,20 +42,21 @@ namespace GcPdfWeb.Samples
 
                 var Renderer = new HtmlToPdf();
                 Renderer.PrintOptions.PaperSize = PdfPrintOptions.PdfPaperSize.A4;
-                Renderer.PrintOptions.MarginTop = 50;  //millimeters
-                Renderer.PrintOptions.MarginBottom = 50;
                 Renderer.PrintOptions.CssMediaType = PdfPrintOptions.PdfCssMediaType.Print;
+                Renderer.PrintOptions.CustomCssUrl = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
+                //Set the width of the resposive virtual browser window in pixels
+                //Renderer.PrintOptions.MarginBottom = 0;
+                
 
                 Renderer.PrintOptions.Footer = new SimpleHeaderFooter() {
                     RightText = "Sayfa {page}",
-                    DrawDividerLine = true,
                     FontSize = 10
                 };
 
 
                 var PDF = Renderer.RenderHtmlAsPdf(boundTemplate);
                 Renderer.PrintOptions.PrintHtmlBackgrounds = true;
-                
+
                 var OutputPath = "HtmlToPDF.pdf";
                 PdfDocument.Merge(new PdfDocument(@"C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1\IronPdfExample.pdf"), PDF).SaveAs("Combined.Pdf");
                 //PDF.SaveAs(OutputPath);

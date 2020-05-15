@@ -1,49 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <style>
-        html * {
-            font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif !important;
-        }
-
-        h1 {
-            color: #1a5276;
-            /*background-color: #d2b4de;*/
-            text-align: center;
-            padding: 6px;
-        }
-
-        thead {
-            display: table-header-group;
-        }
-
-        #products {
-            font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-            #products td, #products th {
-                border: 1px solid #ddd;
-                padding: 8px;
-            }
-
-            #products tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
-
-            #products tr:hover {
-                background-color: #ddd;
-            }
-
-            #products th {
-                padding-top: 12px;
-                padding-bottom: 12px;
-                text-align: left;
-                background-color: #a569bd;
-                color: white;
-            }
-    </style>
+    
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
 
@@ -78,8 +36,8 @@
     <div class="row p-5">
         <div class="col-md-12">
             <p>
-                <span style="font-weight: bold">Müşteri Adı :</span> BARIŞ ELVANOĞLU<br>
-                <span style="font-weight: bold">Adres       :</span> SULTAN ORHAN MAH. KIŞLA CD. 1136 SK.
+                <span style="font-weight: bold">Müşteri Adı :</span> {{Header.Name}}<br>
+                <span style="font-weight: bold">Adres       :</span> {{Header.Address}}
             </p>
         </div>
     </div>

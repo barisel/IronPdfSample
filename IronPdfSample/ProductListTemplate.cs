@@ -1,19 +1,11 @@
-//
-// This code is part of https://www.grapecity.com/documents-api-pdf/demos.
-// Copyright (c) GrapeCity, Inc. All rights reserved.
-//
-using System;
-using System.IO;
-using System.Drawing;
-using System.Collections.Generic;
+﻿using System.IO;
 using System.Data;
 using System.Linq;
-using System.Reflection;
 using IronPdf;
 
 namespace GcPdfWeb.Samples
 {
-    
+
     public class ProductListTemplate
     {
         public void CreatePDF()
@@ -40,41 +32,36 @@ namespace GcPdfWeb.Samples
                         Balance = $"{prod["Balance"]} TRY",
                         CustomerName = prod["CustomerName"]
                     };
+                var headerField = new { Name = "BARIŞ ELVANOĞLU", Address = "SULTAN ORHAN MAH.KIŞLA CD. 1136 SK." };
 
-                // Load the template - HTML file with {{mustache}} data references:
                 var template = File.ReadAllText(@"C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\Resources\Misc\ProductListTemplate.html");
-                // Bind the template to data:
+                
                 var builder = new Stubble.Core.Builders.StubbleBuilder();
-                var boundTemplate = builder.Build().Render(template, new { Query = accounting });
+                var boundTemplate = builder.Build().Render(template, new { Query = accounting, Header = headerField });
                 var tmp = Path.GetTempFileName();
-                // Render the bound HTML:
 
                 var Renderer = new HtmlToPdf();
-
-                // Settings 
                 Renderer.PrintOptions.PaperSize = PdfPrintOptions.PdfPaperSize.A4;
-                Renderer.PrintOptions.CssMediaType = PdfPrintOptions.PdfCssMediaType.Screen;
-                //Renderer.PrintOptions.PaperOrientation = PdfPrintOptions.PdfPaperOrientation.Portrait;
-                //Renderer.PrintOptions.Header = new SimpleHeaderFooter() { CenterText = "Iron PDf C# Html to PDF Example", FontSize = 10, FontFamily = "Arial" };
-                //Renderer.PrintOptions.Footer = new HtmlHeaderFooter() { HtmlFragment = "<div style='text-align:right'><em style='color:#333'>page {page} of {total-pages}</em></div>" };
+                Renderer.PrintOptions.MarginTop = 50;  //millimeters
+                Renderer.PrintOptions.MarginBottom = 50;
+                Renderer.PrintOptions.CssMediaType = PdfPrintOptions.PdfCssMediaType.Print;
 
-                // Render the HTML as a PDF
+                Renderer.PrintOptions.Footer = new SimpleHeaderFooter() {
+                    RightText = "Sayfa {page}",
+                    DrawDividerLine = true,
+                    FontSize = 10
+                };
+
+
                 var PDF = Renderer.RenderHtmlAsPdf(boundTemplate);
-
-                //  Editing the PDF by adding a watermark
-                //PDF.WatermarkAllPages("<span style='color:red; font-size:44px; font-family:Arial'>Sample</example>", PdfDocument.WaterMarkLocation.MiddleCenter, 20, -45, "http://ironpdf.com");
-
-                //  Save the PDF to a file
+                Renderer.PrintOptions.PrintHtmlBackgrounds = true;
+                
                 var OutputPath = "HtmlToPDF.pdf";
-                PDF.SaveAs(OutputPath);
-
-                //var Renderer = new HtmlToPdf();
-                //var PDF = Renderer.RenderHtmlAsPdf(boundTemplate);
-                //var OutputPath = "HtmlToPDF.pdf";
+                PdfDocument.Merge(new PdfDocument(@"C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1\IronPdfExample.pdf"), PDF).SaveAs("Combined.Pdf");
                 //PDF.SaveAs(OutputPath);
                 //C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1
+                
             }
-            // Done.
         }
     }
 }

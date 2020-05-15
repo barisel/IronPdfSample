@@ -57,12 +57,12 @@ namespace GcPdfWeb.Samples
 
                 var PDF = Renderer.RenderHtmlAsPdf(boundTemplate);
                 Renderer.PrintOptions.PrintHtmlBackgrounds = true;
-
+                //PDF.WatermarkPage("<h2 style='color:red'>Denizbank kaşe imza</h2>", 1,PdfDocument.WaterMarkLocation.MiddleCenter, 50, -45, "https://www.nuget.org/packages/IronPdf");
                 var OutputPath = "HtmlToPDF.pdf";
-                PdfDocument.Merge(new PdfDocument(@"C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1\IronPdfExample.pdf"), PDF).SaveAs("Combined.Pdf");
-                //PDF.SaveAs(OutputPath);
+                PdfDocument.Merge(new PdfDocument(@"C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1\Watermarked.pdf"), PDF).SaveAs("Combined.Pdf");
+                PDF.SaveAs(OutputPath);
                 //C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1
-                
+
             }
 
             
@@ -72,8 +72,8 @@ namespace GcPdfWeb.Samples
         public void WatermarkTst()
         {
             IronPdf.HtmlToPdf Renderer = new IronPdf.HtmlToPdf();
-            var pdf = Renderer.RenderUrlAsPdf("https://www.nuget.org/packages/IronPdf");
-            pdf.WatermarkAllPages("<h2 style='color:red'>SAMPLE</h2>", PdfDocument.WaterMarkLocation.MiddleCenter, 50, -45, "https://www.nuget.org/packages/IronPdf");
+            var pdf = Renderer.RenderHtmlAsPdf("<h1>Ekstre Kapak</h1>");
+            pdf.WatermarkAllPages("<h2 style='color:red'>Buraya kapak eklenecek!!</h2>", PdfDocument.WaterMarkLocation.MiddleCenter, 50, -45, "https://www.nuget.org/packages/IronPdf");
             pdf.SaveAs(@"C:\tmp\document\Watermarked.pdf");
         }
     }

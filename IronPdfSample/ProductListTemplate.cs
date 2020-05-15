@@ -2,6 +2,7 @@
 using System.Data;
 using System.Linq;
 using IronPdf;
+using System.Security.Cryptography.X509Certificates;
 
 namespace GcPdfWeb.Samples
 {
@@ -63,6 +64,17 @@ namespace GcPdfWeb.Samples
                 //C:\Users\barisel\source\repos\IronPdfSample\IronPdfSample\bin\Debug\netcoreapp3.1
                 
             }
+
+            
+        }
+
+        // kaşe veya imzalar için kullanılacak.
+        public void WatermarkTst()
+        {
+            IronPdf.HtmlToPdf Renderer = new IronPdf.HtmlToPdf();
+            var pdf = Renderer.RenderUrlAsPdf("https://www.nuget.org/packages/IronPdf");
+            pdf.WatermarkAllPages("<h2 style='color:red'>SAMPLE</h2>", PdfDocument.WaterMarkLocation.MiddleCenter, 50, -45, "https://www.nuget.org/packages/IronPdf");
+            pdf.SaveAs(@"C:\tmp\document\Watermarked.pdf");
         }
     }
 }

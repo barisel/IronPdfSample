@@ -11,6 +11,7 @@ namespace IronPdfSample
         {
             ProductListTemplate template = new ProductListTemplate();
             template.CreatePDF();
+            template.WatermarkTst();
         }
     }
 }
